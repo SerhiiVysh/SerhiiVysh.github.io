@@ -2247,6 +2247,9 @@ textarea {
 
 
 @media screen and (max-width:320px){
+	.html{
+		width:320px;
+	}
     .bg-img{
         background-image: url(../imgs/bg.png);
         width: 320px;
