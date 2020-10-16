@@ -1305,35 +1305,10 @@ textarea {
 
 
 
-
-
-@media screen and (max-width: 785px){
-    .bg-img{
-        background-image: url(../imgs/bg1-img.png);
-        position: absolute;
-        width: 768px;
-        height: 700px;
-        left: -webkit-calc(50% - 768px/2);
-        left: -moz-calc(50% - 768px/2);
-        left: calc(50% - 768px/2);
-        top: 0px;
-    }
-    .bg-img__solid{
-        background-color: black;
-        opacity: 10%;
-        position: absolute;
-        width: 768px;
-        height: 700px;
-        left: -webkit-calc(50% - 768px/2);
-        left: -moz-calc(50% - 768px/2);
-        left: calc(50% - 768px/2);
-        top: 0px;
-    }
-}
-
-
 @media screen and (max-width: 1050px){
-   
+    *{
+        max-width: 1050px;
+    }
     .bg-img__item1{
         @include font-pos-col('Montserrat-Bold', absolute, white);
         display: flex;
@@ -1836,9 +1811,35 @@ textarea {
     }
 }
 
+@media screen and (max-width: 785px){
+    .bg-img{
+        background-image: url(../imgs/bg1-img.png);
+        position: absolute;
+        width: 768px;
+        height: 700px;
+        left: -webkit-calc(50% - 768px/2);
+        left: -moz-calc(50% - 768px/2);
+        left: calc(50% - 768px/2);
+        top: 0px;
+    }
+    .bg-img__solid{
+        background-color: black;
+        opacity: 10%;
+        position: absolute;
+        width: 768px;
+        height: 700px;
+        left: -webkit-calc(50% - 768px/2);
+        left: -moz-calc(50% - 768px/2);
+        left: calc(50% - 768px/2);
+        top: 0px;
+    }
+}
 
 
 @media screen and (max-width:750px){
+    *{
+        max-width: 750px;
+    }
     .bg-img__item1{
         top: 160px;
         left: -webkit-calc(50% - 160px/2);
@@ -2247,9 +2248,12 @@ textarea {
 
 
 @media screen and (max-width:320px){
-	.html{
-		width:320px;
-	}
+    *{
+        max-width: 320px;
+    }
+    .html{
+        width: 320px;
+    }
     .bg-img{
         background-image: url(../imgs/bg.png);
         width: 320px;
@@ -2428,7 +2432,9 @@ textarea {
     .bg-sect2{
         width: 320px;
     }
-    
+    .sect3{
+        width: 320px;
+    }
     .sect3_main{
         position: absolute;
         width: 300px;
@@ -2499,6 +2505,9 @@ textarea {
         height: 40px;
         box-sizing: border-box;
         padding-left: 72px;
+    }
+    .sect4{
+        width: 320px;
     }
     .sect4__main{
         top: 2450px;
