@@ -1,0 +1,11 @@
+@mixin font-pos-col ($f, $p, $c){
+    font-family: $f;
+    position: $p;
+    color: $c;
+    
+}
+
+@mixin w_h ($w, $h){
+    width: $w;
+    height: $h;
+}
