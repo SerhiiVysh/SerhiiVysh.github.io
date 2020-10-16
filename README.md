@@ -1,2 +1,2 @@
-# SerhiiVysh.github.io
+# serhii-frontend.github.io
 First project
